@@ -1,3 +1,4 @@
+_Note: This protocol is a demonstration of advanced Solidity development practices and should not be used in production without thorough auditing._ ⚠️
 # 🪙 Decentralized Stablecoin Protocol
 
 A robust, overcollateralized stablecoin protocol built on the Ethereum blockchain, featuring algorithmic stability and exogenous collateral backing. 💎
@@ -124,25 +125,25 @@ The protocol includes extensive testing infrastructure:
 git clone https://github.com/Kushagra-Raghuwanshi/Defi-stablecoin
 ```
 
-2. Install dependencies
+1. Install dependencies
 
 ```bash
 forge install
 ```
 
-3. Run tests
+1. Run tests
 
 ```bash
 forge test
 ```
 
-4. Run specific test file
+1. Run specific test file
 
 ```bash
 forge test --mt <name_of_test>
 ```
 
-5. Run coverage report
+1. Run coverage report
 
 ```bash
 forge coverage
@@ -182,6 +183,5 @@ This project is licensed under the MIT License
 
 ---
 
-_Note: This protocol is a demonstration of advanced Solidity development practices and should not be used in production without thorough auditing._ ⚠️
 
 Built by Kushagra Raghuwanshi
